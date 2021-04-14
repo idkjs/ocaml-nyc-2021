@@ -1,0 +1,34 @@
+{
+  "name": "ocaml-nyc-reducers",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0",
+    "webpack": "webpack -w",
+    "serve": "open src/index.html",
+    "webpack:production": "NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@glennsl/bs-json": "^5.0.2",
+    "bs-fetch": "^0.6.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reason-react": "^0.9.1",
+    "todomvc-app-css": "^2.3.0",
+    "todomvc-common": "^1.0.5"
+  },
+  "devDependencies": {
+    "bs-platform": "^9.0.2",
+    "concurrently": "^3.5.0",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
