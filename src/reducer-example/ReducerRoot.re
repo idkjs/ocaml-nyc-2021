@@ -4,7 +4,7 @@
 
 ReactDOMRe.renderToElementWithId(
   <div>
-     <ReducerButtonsDispatch showAllButtons=false /> </div>,
+     <AnimationExample showAllButtons=false /> </div>,
     // <ReducerButtons showAllButtons=false />
   "index",
 );
