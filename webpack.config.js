@@ -13,6 +13,7 @@ module.exports = {
     // animation: './src/animation/AnimationRoot.bs.js',
     hooks: './src/hooks/HooksRoot.bs.js',
     "hooks-animation": './src/hooks-animation/HooksAnimationRoot.bs.js',
+    "reducer-example": './src/reducer-example/ReducerRoot.bs.js',
   },
   mode: isProd ? 'production' : 'development',
   output: {
